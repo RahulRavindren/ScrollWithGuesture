@@ -1,8 +1,10 @@
 {"name" : :"Scroll-Gesture",
 "version" : "0.1",
 "description" : "uses motion detection to scroll the page",
+"browser_action" :{
 "default_popup" : "popup.html",
 "background" : {
 "script" : ["app.js"],
 "persistent" : false
+}
 }
