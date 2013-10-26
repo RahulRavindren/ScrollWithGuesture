@@ -1,4 +1,4 @@
-{"name" : :"Scroll-Gesture",
+{"name" : "Scroll-Gesture",
 "version" : "0.1",
 "description" : "uses motion detection to scroll the page",
 "browser_action" :{
