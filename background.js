@@ -27,6 +27,17 @@ function hasGetUserMedia(){
 return !!(navigator.getUserMedia || navigator.webkitGetUserMedia);}
 
 function update (){
+blend();
+checkAreas();
+}
+
+var canvasSource= $('#canvas-source')[0];
+var canvasBlend= $('#canvas-blend') [0];
+var
+function blend(){
+var width= canvasSource.width;
+var height= canvasSource.height;
+
 
 
 }
