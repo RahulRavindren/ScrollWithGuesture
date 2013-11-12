@@ -37,6 +37,8 @@ var
 function blend(){
 var width= canvasSource.width;
 var height= canvasSource.height;
+	var webcamImage = canvasSource.getImageData(0,0,width,height);
+	if(!nextImage) var nextImage = canvasSource.getImage(0,0,width,height);
 
 
 
