@@ -42,6 +42,9 @@ var height= canvasSource.height;
 	if(!nextImage) var nextImage = canvasSource.getImage(0,0,width,height);
 	var blendImage = canvasSource.createImage(width,height);
 	differenceAccuracy(blendImage.data,webcamImage.data,nextImage.data);
-	blendContext.addImage(blendImage.data,0,0);
+	blendContext.putImageData(blendImage.data,0,0);
+	nextImage = webcamImage;
+};
+function differenceAccuracy(target,data0,data1){
 
-}
+};
